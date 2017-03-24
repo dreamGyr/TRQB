@@ -1,0 +1,468 @@
+/* 商家入驻 */
+.g-container{
+    background: #f1f1f1
+}
+/*  头部 start  */
+.g-header{
+    height: 80px;
+    width: 100%;
+    background:#d12129;
+    margin-bottom: 25px;
+    min-width: 1100px;
+}
+.g-headerCon{
+    height:96px;
+    margin-left:218px;
+    position:relative;
+}
+.g-headerCon img{
+    float: left;
+}
+.g-headerCon i{
+   /*  display:inline-block; */
+   /*  width: 2px;
+    height: 15px; */
+    border:1px solid #e8b4b6
+}
+.g-headerCon .g-headerInfo{
+    color: #fbeced;
+    float:left;
+    margin-top:43px;
+    margin-left:300px;
+}
+.g-headerCon .backBtn{
+    display:inline-block;
+    color: #fbeced;
+    width: 50px;
+    height: 24px;
+    border:1px solid #fbeced;
+    text-align:center;
+    line-height:24px;
+    border-radius:10%;
+    margin-left: 5px;
+
+}
+.g-relation{
+    cursor:pointer;
+    color: #fbeced;
+    float: right;
+    margin-top:43px;
+    margin-right: 60px;
+    width:100px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+      -webkit-transition: .5s .25s ease-in-out;
+        -moz-transition: .5s .25s ease-in-out;
+         -ms-transition: .5s .25s ease-in-out;
+          -o-transition: .5s .25s ease-in-out;
+             transition: .5s .25s ease-in-out;
+}
+/* 头部  end */
+/* 内容区 */
+.w-1200{
+    width: 1200px;
+}
+/* 个人企业信息填写  start */
+.g-contentBox{
+    margin: 0  auto;
+}
+.g-infoFlow{
+    width: 100%;
+    height: 130px;
+    background-color:#fff;
+}
+.g-infoFlow i{
+    color: #fff;
+    margin-top:30px;
+    font-style:normal;
+    display:inline-block;
+    width: 40px;
+    height:40px;
+    background: #e5e5e6;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+     margin-left: 100px;
+}
+/* g-on 红色圆圈 */
+.g-infoFlow .g-on{
+ background: #fd7c69;
+}
+.g-infoFlow span{
+    text-align: center;
+    display:block;
+}
+.g-infoFlow ul .g-infoFlowList{
+    height: 130px;
+    width: 230px;
+    margin: 0 auto;
+    float:left;
+   }
+.g-infoFlow ul .g-infoFlowListIcn{
+    margin-left: -90px;
+    float:left;
+   }
+
+.g-infoFlow ul li em{
+    margin-top: 40px;
+    display:inline-block;
+    margin-left: 50px;
+}
+/* 个人信息填写  end */
+
+/* info  form  start */
+.g-info{
+    background: #fff;
+    margin: 25px auto 0;
+
+}
+.g-info p i{
+    height:12px;
+    display:inline-block;
+    border:3px solid #fd7c69;
+    margin-right: 5px;
+    margin-bottom:-2px;
+}
+.g-info p{
+    width: 96%;
+    height: 50px;
+    margin-left: 26px;
+    line-height: 54px;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+
+}
+.g-info p span{
+    font-size: 14px;
+    color: #7d8084
+}
+.g-infoCons{
+    width: 1140px;
+    margin-top:40px;
+
+}
+.g-infoCons input{
+    width: 470px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    border: 1px solid #f4f1f1;
+    text-indent:8px;
+}
+.g-infoCons ul li{
+    width:1140px;
+    margin-bottom:16px;
+}
+.g-infoCons ul li span{
+    width:240px;
+    text-align:right;
+    margin-left:60px;
+    margin-right:40px;
+    display:inline-block;
+}
+.g-infoCons  ul li span i{
+  color:red;
+  margin-right:5px;
+}
+.g-hint{
+   color:#ff3346;
+  margin-left:340px;
+
+}
+.mailNo{
+    color:red;
+    font-size:14px;
+    display:none;}
+
+/* 营业执照  示列部分 */
+.g-infoCons ul .g-businessLicense input{
+    width: 410px;
+    height: 40px;
+    border-radius: 5px;
+}
+.g-infoCons ul li .showBtn{
+    display:block;
+    float: right;
+    width: 52px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #f4f1f1;
+    margin-right: 325px;
+    font-style:normal ;
+    text-align: center;
+    line-height: 44px;
+    color: #898989;
+    cursor: pointer;
+}
+/* 资质信息上传  start */
+
+.g-infoConFile{
+    width: 1140px;
+    margin-top:40px;
+}
+.g-infoConFile ul li span{
+    width:240px;
+    height: 50px;
+    margin-top: 0px;
+    text-align:right;
+    margin-left:60px;
+    margin-right:40px;
+    display:inline-block;
+    float: left;
+}
+.g-infoConFile ul li span i{
+    color:red;
+    margin-right:5px;
+
+}
+.image_container img{
+    width: 130px;
+    height: 130px;
+    border: 1px solid #f4f1f1;
+    display: inline-block;
+    background-size: 100%;s
+}
+.image_container{
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+.g-infoConFile ul li {
+     width: 1140px;
+     height: 130px;
+}
+/* file img 上的  “| ”  */
+.image_container .icon1{
+    position: absolute;
+    display: inline-block;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    left: 64px;
+    top:45px;
+}
+/* file img 上的  “—— ”  */
+.image_container .icon2{
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    border: 1px solid #e0e0e0;
+    left: 45px;
+    top:64px;
+}
+#file_upload{
+    background: #fff
+    border: 0px;
+    border: 1px solid #f4f1f1;
+
+}
+
+.upfilebox {
+     float: left;
+     display: inline-block;
+     position: relative;
+  }
+.upfilebox input {
+     width: 100px;
+     height: 130px;
+     position: relative;
+     z-index: 9;
+     opacity: 0;
+            }
+.upfilebox label {
+   position: absolute;
+   border: 1px solid #f4f1f1;
+   display: inline-block;
+   width: 100px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   top: 50px;
+   left: 20px;
+   border-radius: 10px;
+
+}
+.g-infoConFile ul li em{
+    display: inline-block;
+    width: 12px;
+    height: 130px;
+    margin-left: 50px;
+    float: left;
+}
+.g-infoConFile ul li .g-sfz{
+    float: left;
+    width: 140px;
+    height: 95px;
+    margin-left: 50px;
+    display: inline-block;
+}
+/* 身份证 信息 end */
+.g-identityCons ul li input{
+    width:225px;
+    margin-left:
+}
+.g-identityCons ul li i{
+    display: inline-block;
+    margin:10px;
+}
+.g-infoConFile #g-attention{
+    margin-top:20px;
+
+}
+.g-attentionInfo{
+    display:inline-block;
+}
+#g-infoConFile{
+height:200px;
+}
+/* 表单结束    */
+/* 最底部注意部分 start*/
+.g-warn{
+  width: 1140px;
+  height: 150px;
+
+}
+.g-warn ul li{
+   line-height: 30px;
+   margin-left: 200px;
+}
+.g-warn ul li i {
+    color: red
+}
+/* 最底部注意部分 end*/
+.g-fh-btn{
+    width:100%;
+    height:200px;
+}
+.g-fh-btn ul {
+    width:1140px;
+    height:400px;
+    margin:0 auto;
+}
+.g-fh-btn li{
+    float:left;
+    width:180px;
+    height:50px;
+    border:1px solid #ccc;
+    text-align:center;
+    line-height:50px;
+    border-radius:10px;
+}
+.g-fh-btn li a{
+    text-align:center;
+    color:#000;
+}
+
+.g-fh-btn .g-fh-btn1{
+    margin-left:360px;
+    margin-right:70px;
+}
+
+// 下一步红色按钮
+.g-fh-btn ul li:hover{
+    background-color:red;
+}
+/*示列 弹出层 开始*/
+.alertMb{
+    background: rgba(0,0,0,0.3);
+    width:100%;
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+ }
+.alertBox{
+    position:absolute;
+    top: 580px;
+    left:50%;
+    right: 50%;
+    margin-left:-600px;
+    width:1200px;
+    height:1520px;
+    background:#fff;
+
+}
+.alertTitle{
+    height:114px;
+    border-bottom:1px solid #999;
+    line-height:115px;
+    font-size:40px;
+    color:#585858;
+    text-align:center;
+    position: relative;
+}
+.closeBtn{
+    background:url("../../imgs/closeIcon.png") no-repeat center;
+    width: 26px;
+    height:26px;
+    position:absolute;
+    top:45px;
+    right: 40px;
+}
+.alertImg{
+    text-align:center;
+    height:1260px;
+    width:100%;
+    border-bottom:1px solid #999;
+}
+.alertImg img{
+    // display:block;
+    height:1170px;
+    width:1000px;
+
+
+    margin-top:45px;
+    background:#999;
+}
+.alertSure .alertSureBtn{
+    display:block;
+    height:65px;
+    width:200px;
+    background:#e75567;
+    margin:35px 0 0 900px;
+    border-radius:10px;
+    border:none;
+    font-size:30px;
+    color:#fff;
+}
+/* 示列弹出层 end*/
+/* 联系我们下拉提示 start*/
+.seletBox{
+    position:absolute;
+    top:80px;
+    right:0;
+    width: 200px;
+    background:#fff;
+    font-size:16px;
+    display:none;
+}
+.zx-phone a{
+    display:block;
+    color:#749ad0;
+    margin-left:30px;
+}
+.seletBox ul li em{
+    margin:10px 15px;
+    display:block;
+}
+.seletBox ul li span{
+    margin:10px 30px;
+    display:block;
+}
+
+.seletBox ul li p{
+     width:170px;
+     margin:0 auto;
+     font-size:14px;
+}
+.g-relation:hover{
+     background:#fff;
+     color:#000;
+     -webkit-transition: .5s .25s ease-in-out;
+        -moz-transition: .5s .25s ease-in-out;
+         -ms-transition: .5s .25s ease-in-out;
+          -o-transition: .5s .25s ease-in-out;
+             transition: .5s .25s ease-in-out;
+}
+
+/* 下拉提示 end*/

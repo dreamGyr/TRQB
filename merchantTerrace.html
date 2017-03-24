@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>商家入驻</title>
+    <!-- 初始化文件 -->
+    <link rel="stylesheet" href="css/apps/reset.css"/>
+    <!-- 商家入驻 css -->
+    <link rel="stylesheet" type="text/css" href="css/apps/merchantTerrace.css">
+    <!-- icon  图标 -->
+    <link rel="stylesheet" type="text/css" href="css/apps/icon/iconfont.css">
+    <script src="js/libs/jquery.min.js"></script>
+    <!-- 商家入驻 js -->
+    <script src="js/apps/merchantTerrace.js"></script>
+    <!-- form 正则 -->
+    <script src="js/apps/form.js"></script>
+    <!-- 页面公共  js -->
+    <script src="js/apps/commonality.js"></script>
+
+</head>
+<body>
+<div class="g-container">
+<!-- 头部导航 start -->
+  <div class="g-header ">
+    <div class="g-headerCon clearfix">
+        <img src="imgs/pdd_b93da3.png" alt="">
+        <p class="g-headerInfo">
+            <span class="g-number">1384227907</span>
+            <i></i>
+            <a href="#" class="backBtn">退出</a>
+        </p>
+        <p class="g-relation">联系我们</p>
+
+        <!-- 联系我们下拉框 start -->
+          <div class="seletBox">
+              <ul>
+                  <li class="zx-phone">
+                     <em>咨询电话</em>
+                     <a href="010-1010101">010-1010101</a>
+                     <a href="010-1010101">010-1010101</a>
+                     <a href="010-1010101">010-1010101</a>
+                  </li>
+                  <li>
+                    <em>企业QQ群</em>
+                    <span>595959595</span>
+                  </li>
+                  <li>
+                    <em>服务时间</em>
+                    <span>10：00-22：00</span>
+                  </li>
+                  <li>
+                    <p>系统使用中系统使用中系统使用中系统使用中系统使用中系统使用中系统使用中系统使用中系统使用中系统使用中</p>
+                  </li>
+              </ul>
+          </div>
+        <!-- 联系我们下拉框 end  -->
+    </div>
+  </div>
+  <!-- 头部导航  end -->
+  <!-- 个人企业信息流程 start -->
+  <div class="g-contentBox w-1200">
+    <div class="g-infoFlow">
+        <ul class="w-1200 clearfix">
+            <li class="g-infoFlowList">
+                <p>
+                    <i class="g-on">1</i>
+                </p>
+                <span>个人/企业信息填写</span>
+            </li>
+            <li class="g-infoFlowListIcn">
+                  <em>&gt;&gt;&gt;&gt;&gt;</em>
+            </li>
+             <li class="g-infoFlowList">
+                <p>
+                    <i>2</i>
+                </p>
+                <span>店铺信息填写</span>
+            </li>
+            <li class="g-infoFlowListIcn">
+                  <em>&gt;&gt;&gt;&gt;&gt;</em>
+            </li>
+             <li class="g-infoFlowList">
+                <p>
+                    <i>3</i>
+                </p>
+                <span>资质审核</span>
+            </li>
+            <li class="g-infoFlowListIcn">
+                  <em>&gt;&gt;&gt;&gt;&gt;</em>
+            </li>
+               <li class="g-infoFlowList">
+                <p>
+                    <i>4</i>
+                </p>
+                <span>签约打款</span>
+            </li>
+            <li class="g-infoFlowListIcn">
+                  <em>&gt;&gt;&gt;&gt;&gt;</em>
+            </li>
+               <li class="g-infoFlowList">
+                <p>
+                    <i>5</i>
+                </p>
+                <span>入驻成功</span>
+            </li>
+        </ul>
+    </div>
+    </div>
+     <!-- 个人企业信息流程 end -->
+     <!-- 基本信息填写  start -->
+    <div class="g-info w-1200">
+        <p class="g-infoTitle"><i></i>店铺管理人员基本信息</p>
+        <!-- 店铺管理人员 form start -->
+        <form action="" method="post" accept-charset="utf-8">
+             <div class="g-infoCons">
+             <ul>
+                <li>
+                     <span><i>*</i>管理人姓名:</span>
+                     <input class="mingzi" type="text" placeholder="请输入管理员真实姓名" value="">
+                     <em class="mailNo"></em>
+                </li>
+                <li>
+                        <span><i>*</i>管理人邮箱:</span>
+                        <input class="youxiang" type="text" placeholder="请输入常用邮箱便于审核信息及后期规则的即使送达">
+              <em class="mailNo youxiangcuowu"><i class="icon Hui-iconfont">&#xe6e0;</i>邮箱不能为空或错误格式,请输入正确格式</em>
+                </li>
+                <li>
+                     <span> <i>*</i>管理人手机号码:</span>
+                   <input class="shouji" type="text" placeholder="请输入管理员常用手机号码,不支持座机">
+             <em class="mailNo shoujicuowu"><i class="icon Hui-iconfont">&#xe6e0;</i>手机号不能为空或错误格式,请输入正确格式</em>
+                </li>
+                <li>
+                     <span><i>*</i>再次输入管理人手机号码:</span>
+                       <input class="shoujizai" type="text" placeholder="请再次输入管理人手机号码">
+               <em class="mailNo shoujibu"><i class="icon Hui-iconfont">&#xe6e0;</i>手机号不能为空或不一致,请重新输入</em>
+                </li>
+                <li class="g-hint">注:此手机号码为商家首次登陆后的账号，有最高管理限制</li>
+                <li>
+                     <span><i>*</i>紧急联系人名称:</span>
+                        <input class="lianxiren" type="text" placeholder="紧急联系人与管理人不能为同一人">
+               <em class="mailNo"></em>
+                </li>
+                <li>
+                     <span><i>*</i>紧急联系人号码:</span>
+                       <input class="dianhua" type="text" placeholder="紧急联系人不能与管理人号码相同">
+               <em class="mailNo dianhuacuowu"><i class="icon Hui-iconfont">&#xe6e0;</i>手机号不能为空或错误格式,请输入正确格式</em>
+                </li>
+                <li>
+                     <span><i>*</i>再次输入紧急联系人号码:</span>
+                      <input class="dianhuazai" type="text" placeholder="请再次输入紧急联系人号码">
+               <em class="mailNo dianhuabu"><i class="icon Hui-iconfont">&#xe6e0;</i>手机号不能为空或不一致,请重新输入</em>
+                </li>
+            </ul>
+        </div>
+        <!-- 店铺管理人员   end -->
+
+         <p class="g-infoTitle"><i></i>负责人基本信息</p>
+         <!-- 负责人  start -->
+             <div class="g-infoCons">
+             <ul>
+                <li>
+                     <span><i>*</i>负责人姓名:</span>
+                    <input class="mingzi" type="text" placeholder="请输入负责人真实姓名">
+                     <em class="mailNo"></em>
+                </li>
+                <li>
+                        <span><i>*</i>负责人邮箱:</span>
+                        <input class="youxiang" type="text" placeholder="请输入常用邮箱便于审核信息及后期规则的即使送达">
+              <em class="mailNo youxiangcuowu"><i class="icon Hui-iconfont">&#xe6e0;</i>邮箱不能为空或错误格式,请输入正确格式</em>
+                </li>
+                <li>
+                     <span> <i>*</i>负责人手机号码:</span>
+                     <input class="shouji" type="text" placeholder="请输入负责人常用手机号码,不支持座机">
+             <em class="mailNo shoujicuowu"><i class="icon Hui-iconfont">&#xe6e0;</i>手机号不能为空或错误格式,请输入正确格式</em>
+                </li>
+                <li>
+                     <span><i>*</i>再次输入负责人手机号码:</span>
+                         <input class="shoujizai" type="text" placeholder="请再次输入负责人手机号码">
+               <em class="mailNo shoujibu"><i class="icon Hui-iconfont">&#xe6e0;</i>手机号不能为空或不一致,请重新输入</em>
+                </li>
+                <li class="g-hint">注:此手机号码为商家提现时,接收验证码的初始手机号</li>
+            </ul>
+        </div>
+         <!-- 店铺管理人员  end -->
+          <!-- 企业信息  start -->
+         <p class="g-infoTitle"><i></i>企业信息</p>
+             <div class="g-infoCons">
+             <ul>
+                <li>
+                     <span><i>*</i>企业法人姓名:</span>
+                   <input class="mingzi" type="text" placeholder="请输入企业法人真实姓名">
+                     <em class="mailNo"></em>
+                </li>
+                <li>
+                        <span><i>*</i>身份证号:</span>
+                      <input class="shenfen" type="text" placeholder="请输入企业法人的证件号(身份证号,护照,军官证等均可)">
+               <em class="mailNo shenfencuo"><i class="icon Hui-iconfont">&#xe6e0;</i>身份证不能为空或格式错误，请重新输入</em>
+                </li>
+                <li class="g-hint">注:请确认你的身份号码填写无误,该身份证号必须与您上传的身份证照片一致</li>
+                <li>
+                     <span><i>*</i>公司名称:</span>
+                    <input type="text" placeholder="请输入公司名称" maxlength="20" minlength="5" class="g-gsmc">
+                     <em class="mailNo"></em>
+                </li>
+                <li class="g-businessLicense">
+                     <span><i>*</i>营业执照注册号:</span>
+                        <input type="text" placeholder="请输入15位营业执照注册号" class="yingyezhizhao" maxlength="15">
+                         <em class="g-example-btn1 showBtn">实例</em>
+                </li>
+                <li class="g-businessLicense">
+                     <span> <i>*</i>组织机构代码:</span>
+                        <input type="text" placeholder="请输入组织机构代码" class="zuzhijigou">
+                         <em class="g-example-btn2 showBtn">实例</em>
+                </li>
+                <li class="g-businessLicense">
+                     <span><i>*</i>纳税人识别码:</span>
+                        <input type="text" placeholder="请输入纳税人识别码" class="shuinaren">
+                         <em class="g-example-btn3 showBtn">实例</em>
+                </li>
+                <li class="g-businessLicense">
+                     <span><i>*</i>统一社会信用代码:</span>
+                        <input type="text" placeholder="请输入18位的统一社会信用代码" class="xinyongdaima">
+                         <em class="g-example-btn4 showBtn">实例</em>
+                </li>
+                  <li class="g-hint">注:三证合一的营业执照，请全部填写统一的社会信用代码<br>非三证合一的营业执照请在统一社会信用代码处填写营业执照注册号，请根据您的营业执照类型依次填写</li>
+            </ul>
+        </div>
+        <!-- 企业信息 end -->
+        <!-- 资质信息上传 start -->
+        <p class="g-infoTitle"><i></i>资质信息上传<span>(注: 上传的图片大小在5M以内,&nbsp;仅支持jpg, &nbsp;png格式)</span></p>
+        <!-- 身份证  start-->
+          <div class="g-infoConFile">
+          <ul>
+            <li class="clearfix">
+               <span><i>*</i>法人身份证证件照:</span>
+                 <!-- file 上传img -->
+                <div class="image_container">
+                   <div id="icon1">
+                       <i class="icon1"></i>
+                        <i class="icon2"></i>
+                   </div>
+
+                   <img id="preview1">
+                </div>
+                <div class="upfilebox">
+                    <input id="file_upload1" type="file" value="选择文件" />
+                    <label>选择图片</label>
+                </div>
+                <em>示列:</em>
+                <img class="g-sfz" src="imgs/sfz.png" alt="">
+            </li>
+
+          </ul>
+          </div>
+            <div class="g-infoConFile">
+          <ul>
+            <li class="clearfix">
+               <span><i>*</i>法人身份证反面照:</span>
+                 <!-- file 上传img -->
+                <div class="image_container">
+                <div id="icon2">
+                       <i class="icon1"></i>
+                        <i class="icon2"></i>
+                   </div>
+                   <img id="preview2">
+                </div>
+                <div class="upfilebox">
+                    <input id="file_upload2" type="file" value="选择文件" />
+                    <label>选择图片</label>
+                </div>
+                <em>示列:</em>
+                <img class="g-sfz" src="imgs/sfzp.png" alt="">
+            </li>
+          </ul>
+          </div>
+
+        <!-- 身份证 end -->
+        <!-- 身份证有效日期 start -->
+         <div class="g-infoCons g-identityCons">
+             <ul>
+                 <li>
+                     <span><i>*</i>身份证有效期:</span>
+                     <input type="date" name="">
+                     <i>至</i>
+                      <input type="date" name="">
+                 </li>
+             </ul>
+         </div>
+         <!-- 有效日期end -->
+         <!--营业执照 flie start -->
+         <div class="g-infoConFile">
+          <ul>
+            <li class="clearfix">
+               <span><i>*</i>营业执照:</span>
+                 <!-- file 上传img -->
+                <div class="image_container">
+                   <div id="icon3">
+                       <i class="icon1"></i>
+                        <i class="icon2"></i>
+                   </div>
+                   <img id="preview3">
+                </div>
+                <div class="upfilebox">
+                    <input id="file_upload3" type="file" value="选择文件" />
+                    <label>选择图片</label>
+                </div>
+            </li>
+          </ul>
+          </div>
+          <!--营业执照 flie end  -->
+          <!-- 营业有效时间 start -->
+           <div class="g-infoCons g-identityCons">
+             <ul>
+                 <li>
+                     <span><i>*</i>营业执照有效期:</span>
+                     <input type="date" name=""/>
+                     <i>至</i>
+                     <input type="date" name=""/>
+                 </li>
+             </ul>
+         </div>
+         <!-- 营业有效时间  end -->
+         <!-- 税务登记证明 file start-->
+          <div class="g-infoConFile">
+          <ul>
+            <li class="clearfix">
+               <span><i>*</i>税务登记证明:</span>
+                 <!-- file 上传img -->
+                <div class="image_container">
+                  <div id="icon4">
+                       <i class="icon1"></i>
+                        <i class="icon2"></i>
+                   </div>
+                   <img id="preview4">
+                </div>
+                <div class="upfilebox">
+                    <input id="file_upload4" type="file" value="选择文件" />
+                    <label>选择图片</label>
+                </div>
+            </li>
+          </ul>
+          </div>
+          <!-- 税务登记证明 file end -->
+           <!-- 组织证明 file start-->
+          <div class="g-infoConFile">
+          <ul>
+            <li class="clearfix">
+               <span><i>*</i>组织机构证明:</span>
+                 <!-- file 上传img -->
+                <div class="image_container">
+                  <div id="icon5">
+                       <i class="icon1"></i>
+                        <i class="icon2"></i>
+                   </div>
+                   <img id="preview5">
+                </div>
+                <div class="upfilebox">
+                    <input id="file_upload5" type="file" value="选择文件" />
+                    <label>选择图片</label>
+                </div>
+            </li>
+          </ul>
+          </div>
+          <!-- 组织证明 file end-->
+           <!-- 组织机构有效时间 start -->
+           <div class="g-infoCons g-identityCons">
+             <ul>
+                 <li>
+                     <span><i>*</i>组织机构有效期:</span>
+                     <input type="date" name=""/>
+                     <i>至</i>
+                     <input type="date" name=""/>
+                 </li>
+             </ul>
+         </div>
+         <!-- 组织机构有效时间  end -->
+         <!-- 开户许可证 file start-->
+          <div class="g-infoConFile">
+          <ul>
+            <li class="clearfix">
+               <span><i>*</i>开户许可证:</span>
+                 <!-- file 上传img -->
+                <div class="image_container">
+                   <div id="icon6">
+                       <i class="icon1"></i>
+                        <i class="icon2"></i>
+                   </div>
+                   <img id="preview6">
+                </div>
+                <div class="upfilebox">
+                    <input id="file_upload6" type="file" value="选择文件" />
+                    <label>选择图片</label>
+                </div>
+            </li>
+          </ul>
+          </div>
+          <!-- 开户许可证 file end-->
+          <!-- 商标注册证明 file start-->
+          <div class="g-infoConFile" id="g-infoConFile">
+          <ul>
+            <li class="clearfix">
+               <span><i>*</i>商标注册证明:</span>
+                 <!-- file 上传img -->
+               <div>
+                   <div>(必选,最多不超过13张)填写店铺名称时如果包含"旗航,官方",商家必须上传"商标注册证明"</div>
+                   <div class="image_container" id="g-attention">
+                  <div id="icon7">
+                       <i class="icon1"></i>
+                        <i class="icon2"></i>
+                   </div>
+                   <img id="preview7">
+                   </div>
+                 </div>
+                <div class="upfilebox">
+                    <input id="file_upload7" type="file" value="选择文件" />
+                    <label>选择图片</label>
+                </div>
+            </li>
+          </ul>
+          </div>
+          <!-- 商标注册证明 file end-->
+          <!-- 品牌授权证明 file start-->
+           <div class="g-infoConFile" id="g-infoConFile">
+          <ul>
+            <li class="clearfix">
+               <span><i>*</i>品牌授权证明:</span>
+                 <!-- file 上传img -->
+               <div>
+                   <div>(必选,最多不超过13张)"店铺名包含"旗航,官方,专卖,专营"商家必须上传品牌授权或独自授权证明,<br>需授权店铺从属人在拼多多经营该品牌产品
+                   </div>
+                   <div class="image_container" id="g-attention">
+                    <div id="icon8">
+                       <i class="icon1"></i>
+                        <i class="icon2"></i>
+                   </div>
+                   <img id="preview8">
+                   </div>
+                 </div>
+                <div class="upfilebox">
+                    <input id="file_upload8" type="file" value="选择文件" />
+                    <label>选择图片</label>
+                </div>
+            </li>
+          </ul>
+          </div>
+
+          <!-- 品牌授权证明 file end-->
+          <!-- 质检报告 file start-->
+           <div class="g-infoConFile" id="g-infoConFile">
+          <ul>
+            <li class="clearfix">
+               <span><i>*</i>质检报告:</span>
+                 <!-- file 上传img -->
+               <div>
+                   <div>(必选,最多不超过13张)</div>
+                   <div class="image_container" id="g-attention">
+                    <div id="icon9">
+                        <i class="icon1"></i>
+                        <i class="icon2"></i>
+                    </div>
+                   <img id="preview9">
+                   </div>
+                 </div>
+                <div class="upfilebox">
+                    <input id="file_upload9" type="file" value="选择文件" />
+                    <label>选择图片</label>
+                </div>
+            </li>
+          </ul>
+          </div>
+          <!-- 质检报告 file end-->
+     </form>
+     <!-- 注！！！！！！！ start -->
+     <div class="g-warn">
+         <ul>
+            <li>注：</li>
+             <li>
+              1,<i>海淘类商家</i>,经营<i>食品及酒类</i>者需在质检报告处上传<i>食品流许可证</i>
+              </li>
+             <li>
+             2,目前只允许企业店铺经营,需在质检报告处上传以下证件：酒类同行许可证（酒类流通登记备案）
+             </li>
+             <hr>
+             <!-- 还没写完 按钮 -->
+         </ul>
+     </div>
+     <!-- footer   btn-->
+     <div class="g-fh-btn">
+          <ul>
+              <li  class="g-fh-btn1"><a href="#">上一步</a></li>
+              <li  class="g-fh-btn2"><a href="merchantInfo.html">下一步</a></li>
+          </ul>
+      </div>
+      <!-- footer  end -->
+
+
+    </div>
+    </div>
+
+ <!-- 实例的弹出框 模板-->
+         <div class="alertMb" ><!-- 蒙版 后面的不透明的效果 -->
+         <div class="alertBox">
+            <div class="alertTitle">
+                示例
+                <i class="closeBtn"></i>
+            </div>
+            <div class="alertImg">
+                <img src="" alt="">
+            </div>s
+            <div class="alertSure">
+                <button class="alertSureBtn">知道了</button>
+            </div>
+          </div>
+      </div>
+
+<!-- 弹出层结束 -->
+
+
+</body>
+</html>

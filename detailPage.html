@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>详情页</title>
+     <!-- 初始化样式 -->
+     <link rel="stylesheet" href="css/apps/reset.css"/>
+     <!-- 详情页的样式 -->
+     <link rel="stylesheet" type="text/css" href="css/apps/detailPage.css">
+     <!-- jquerjs -->
+     <script src="js/libs/jquery.min.js"></script>
+     <!-- 详情页js -->
+     <script src="js/apps/detailPage.js"></script>
+</head>
+<body>
+<div class="g-container">
+<!-- 头部导航 start -->
+  <div class="g-header ">
+    <div class="g-headerCon clearfix">
+        <img src="" alt="" class="g-shopImg">
+        <span class="g-shopTitle">商家平台</span>
+        <p class="g-headerInfo">
+            <span class="g-number">1384227907</span>
+            <i></i>
+            <a href="#" class="backBtn">退出</a>
+        </p>
+        <p class="g-relation ">联系我们</p>
+
+        <!-- 联系我们下拉框 start -->
+        <div class="seletBox">
+              <ul>
+                  <li class="zx-phone">
+                     <em>咨询电话</em>
+                     <a href="010-1010101">010-1010101</a>
+                     <a href="010-1010101">010-1010101</a>
+                     <a href="010-1010101">010-1010101</a>
+                  </li>
+                  <li>
+                    <em>企业QQ群</em>
+                    <span>595959595</span>
+                  </li>
+                  <li>
+                    <em>服务时间</em>
+                    <span>10：00-22：00</span>
+                  </li>
+                  <li>
+                    <p>系统使用中系统使用中系统使用中系统使用中系统使用中系统使用中系统使用中系统使用中系统使用中系统使用中</p>
+                  </li>
+              </ul>
+          </div>
+        <!-- 联系我们下拉框 end  -->
+    </div>
+  </div>
+  <!-- 头部导航  end -->
+
+   <!-- 个人企业信息流程 start -->
+  <div class="g-contentBox w-1200">
+    <div class="g-infoFlow">
+        <ul class="w-1200 clearfix">
+            <li class="g-infoFlowList">
+                <p>
+                    <i class="g-on">1</i>
+                </p>
+                <span>个人/企业信息填写</span>
+            </li>
+            <li class="g-infoFlowListIcn">
+                  <em>&gt;&gt;&gt;&gt;&gt;</em>
+            </li>
+             <li class="g-infoFlowList">
+                <p>
+                    <i>2</i>
+                </p>
+                <span>店铺信息填写</span>
+            </li>
+            <li class="g-infoFlowListIcn">
+                  <em>&gt;&gt;&gt;&gt;&gt;</em>
+            </li>
+             <li class="g-infoFlowList">
+                <p>
+                    <i>3</i>
+                </p>
+                <span>资质审核</span>
+            </li>
+            <li class="g-infoFlowListIcn">
+                  <em>&gt;&gt;&gt;&gt;&gt;</em>
+            </li>
+               <li class="g-infoFlowList">
+                <p>
+                    <i>4</i>
+                </p>
+                <span>签约打款</span>
+            </li>
+            <li class="g-infoFlowListIcn">
+                  <em>&gt;&gt;&gt;&gt;&gt;</em>
+            </li>
+               <li class="g-infoFlowList">
+                <p>
+                    <i>5</i>
+                </p>
+                <span>入驻成功</span>
+            </li>
+        </ul>
+    </div>
+    </div>
+     <!-- 个人企业信息流程 end -->
+
+       <!-- 基本信息填写  start -->
+    <div class="g-info w-1200">
+        <p class="g-infoTitle"><i></i>店铺管理人员基本信息</p>
+        <!-- 店铺管理人员 form start -->
+        <form action="" method="post" accept-charset="utf-8">
+             <div class="g-infoCons">
+                 <ul>
+                    <li>
+                         <span><i>*</i>店铺名称:</span>
+                         <input class="mingzi" type="text" placeholder="请输入店铺真实名称" value="">
+                         <em class="mailNo"></em>
+                    </li>
+                    <li>
+                        <span><i>*</i>店铺地址:</span>
+                        <input class="youxiang" type="text" placeholder="请输入店铺真实详细地址">
+                        <em class="mailNo"></em>
+                    </li>
+                    <li>
+                        <span> <i>*</i>联系方式:</span>
+                        <input class="shouji" type="text" placeholder="请输入店铺的联系方式">
+                        <em class="mailNo"></em>
+                    </li>
+                    <div class="g-infoConFile">
+                         <ul>
+                            <li class="clearfix">
+                                <span>店铺logo：</span>
+                                 <!-- file 上传img -->
+                                <div class="image_container">
+                                <div id="icon1">
+                                    <i class="icon1"></i>
+                                    <i class="icon2"></i>
+                                </div>
+                                <img id="preview1">
+                                </div>
+                                <div class="upfilebox">
+                                    <input id="file_upload1" type="file" value="选择文件" />
+                                    <label>选择图片</label>
+                                </div>
+                            </li>
+                             <li class="clearfix shop-img">
+                                <span><i>*</i>店铺照片：</span>
+                                <div>
+                                  (可选，不能超过13张)
+                                </div>
+                                 <!-- file 上传img -->
+                                <div class="image_container">
+                                <div id="icon2" class="icon-py">
+                                    <i class="icon1"></i>
+                                    <i class="icon2"></i>
+                                </div>
+                                <img id="preview2">
+                                </div>
+                                <div class="upfilebox">
+                                    <input id="file_upload2" type="file" value="选择文件" />
+                                    <label>选择图片</label>
+                                </div>
+                            </li>
+                         </ul>
+                    </div>
+
+                  </ul>
+              </div>
+        </form>
+           <!-- footer   btn-->
+               <div class="g-fh-btn">
+                    <ul>
+                        <li  class="g-fh-btn1"><a href="#">上一步</a></li>
+                        <li  class="g-fh-btn2 g-btn-on"><a href="#">下一步</a></li>
+                    </ul>
+                </div>
+             <!-- footer  end -->
+    </div>
+        <!-- 店铺管理人员   end -->
+
+
+
+</body>
+</html>
